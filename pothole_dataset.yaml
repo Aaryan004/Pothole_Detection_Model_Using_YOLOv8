@@ -1,0 +1,8 @@
+path: C:\Users\Aaryan Naithani\OneDrive\Desktop\Pothole_Detection_Model_Using_YOLOv8-main\yolo_formatted_data
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1  
+names: ['pothole']  
