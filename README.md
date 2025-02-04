@@ -118,7 +118,7 @@ Training Parameters:
 --device cuda → Use GPU for training.
 
 
-### 🕵️‍♂️ Detection
+##🕵️‍♂️ Detection
 Once training is complete, the script will automatically run inference on test images:
 
 ```bash
