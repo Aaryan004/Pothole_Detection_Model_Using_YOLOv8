@@ -9,9 +9,9 @@ This repository implements **YOLOv8** to detect potholes in road images. The pro
 - [Prerequisites](#-prerequisites)
 - [Setup](#-setup)
 - [Usage](#-usage)
-  - [Training](#--training)
-  - [Detection](#-detection)
-  - [GPU Verification](#-gpu-verification)
+  - [Training](#-training-🏋️‍♂️)
+  - [Detection](#-detection-🕵️‍♂️)
+  - [GPU Verification](#-gpu-verification-🖥️)
 - [Troubleshooting](#-troubleshooting)
 - [License](#-license)
 
