@@ -4,7 +4,7 @@ This repository implements **YOLOv8** to detect potholes in road images. The pro
 
 ## 📌 Table of Contents
 
-- [Overview](##overview)
+- [Overview](#overview)
 - [Repository Structure](#repository-structure)
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
@@ -13,7 +13,7 @@ This repository implements **YOLOv8** to detect potholes in road images. The pro
   - [Detection](#detection)
   - [GPU Verification](#gpu-verification)
 - [Troubleshooting](#troubleshooting)
-- [License](##license)
+- [License](#license)
 
 ---
 
@@ -102,7 +102,7 @@ names: ['pothole']
 ```
 ---
 ## 🔥 Usage
-🏋️‍♂️ Training
+### 🏋️‍♂️ Training
 To train the YOLOv8 model, run:
 ```bash
 python run_yolov8.py
@@ -117,8 +117,8 @@ Training Parameters:
 
 --device cuda → Use GPU for training.
 
----
-## 🕵️‍♂️ Detection
+
+### 🕵️‍♂️ Detection
 Once training is complete, the script will automatically run inference on test images:
 
 ```bash
@@ -136,8 +136,8 @@ Adjustable Parameters in run_yolov8.py:
 
 --iou 0.7 → IoU threshold for NMS.
 
----
-## 🖥️ GPU Verification
+
+### 🖥️ GPU Verification
 To verify if YOLOv8 is using the GPU, run:
 
 ```bash
